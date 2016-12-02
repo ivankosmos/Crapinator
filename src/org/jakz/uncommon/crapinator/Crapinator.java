@@ -77,7 +77,7 @@ public class Crapinator
 			printHelp();
 		else
 		{
-			File f = new File("crap.file");
+			File f = new File("testfile.crap");
 			FileOutputStream fs = new FileOutputStream(f);
 			int mbsToWrite = Integer.parseInt(commandLine.getOptionValue("s"));
 			byte[] mbTemplate = createTemplate(1000000);
